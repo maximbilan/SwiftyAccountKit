@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56512D866A9624D21CF88AD7 /* Pods_SwiftyAccountKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E826F499970E306296F647F /* Pods_SwiftyAccountKit.framework */; };
 		948D1A2E1F178CD700F20203 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948D1A2D1F178CD700F20203 /* AppDelegate.swift */; };
 		948D1A301F178CD700F20203 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948D1A2F1F178CD700F20203 /* ViewController.swift */; };
 		948D1A331F178CD700F20203 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 948D1A311F178CD700F20203 /* Main.storyboard */; };
@@ -16,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E826F499970E306296F647F /* Pods_SwiftyAccountKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyAccountKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12B9CA4F3FBEE63F05518E8B /* Pods-SwiftyAccountKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyAccountKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyAccountKit/Pods-SwiftyAccountKit.release.xcconfig"; sourceTree = "<group>"; };
+		6BB9EF12BEAC2952A75A8F39 /* Pods-SwiftyAccountKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyAccountKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyAccountKit/Pods-SwiftyAccountKit.debug.xcconfig"; sourceTree = "<group>"; };
 		948D1A2A1F178CD700F20203 /* SwiftyAccountKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyAccountKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		948D1A2D1F178CD700F20203 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		948D1A2F1F178CD700F20203 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,17 +35,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56512D866A9624D21CF88AD7 /* Pods_SwiftyAccountKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AD6325D6A3D0E9386B2B67C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BB9EF12BEAC2952A75A8F39 /* Pods-SwiftyAccountKit.debug.xcconfig */,
+				12B9CA4F3FBEE63F05518E8B /* Pods-SwiftyAccountKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		948D1A211F178CD700F20203 = {
 			isa = PBXGroup;
 			children = (
 				948D1A2C1F178CD700F20203 /* SwiftyAccountKit */,
 				948D1A2B1F178CD700F20203 /* Products */,
+				1AD6325D6A3D0E9386B2B67C /* Pods */,
+				E0890C33FF8536AD580525D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +83,14 @@
 			path = SwiftyAccountKit;
 			sourceTree = "<group>";
 		};
+		E0890C33FF8536AD580525D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E826F499970E306296F647F /* Pods_SwiftyAccountKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 948D1A3C1F178CD700F20203 /* Build configuration list for PBXNativeTarget "SwiftyAccountKit" */;
 			buildPhases = (
+				27F949D69452AC9CF8597AA6 /* [CP] Check Pods Manifest.lock */,
 				948D1A261F178CD700F20203 /* Sources */,
 				948D1A271F178CD700F20203 /* Frameworks */,
 				948D1A281F178CD700F20203 /* Resources */,
+				CFA47B6A91D6F394AF07637F /* [CP] Embed Pods Frameworks */,
+				C9DA0C9C23DF4DBB1EC087C4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,6 +160,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27F949D69452AC9CF8597AA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C9DA0C9C23DF4DBB1EC087C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyAccountKit/Pods-SwiftyAccountKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFA47B6A91D6F394AF07637F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyAccountKit/Pods-SwiftyAccountKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		948D1A261F178CD700F20203 /* Sources */ = {
@@ -264,6 +339,7 @@
 		};
 		948D1A3D1F178CD700F20203 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BB9EF12BEAC2952A75A8F39 /* Pods-SwiftyAccountKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftyAccountKit/Info.plist;
@@ -276,6 +352,7 @@
 		};
 		948D1A3E1F178CD700F20203 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12B9CA4F3FBEE63F05518E8B /* Pods-SwiftyAccountKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftyAccountKit/Info.plist;
