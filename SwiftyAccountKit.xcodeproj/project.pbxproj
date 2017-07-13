@@ -12,7 +12,7 @@
 		948D1A331F178CD700F20203 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 948D1A311F178CD700F20203 /* Main.storyboard */; };
 		948D1A351F178CD700F20203 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 948D1A341F178CD700F20203 /* Assets.xcassets */; };
 		948D1A381F178CD700F20203 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 948D1A361F178CD700F20203 /* LaunchScreen.storyboard */; };
-		948D1A401F178DEB00F20203 /* SwiftlyAccountKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948D1A3F1F178DEB00F20203 /* SwiftlyAccountKit.swift */; };
+		948D1A401F178DEB00F20203 /* SwiftyAccountKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948D1A3F1F178DEB00F20203 /* SwiftyAccountKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		948D1A341F178CD700F20203 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		948D1A371F178CD700F20203 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		948D1A391F178CD700F20203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		948D1A3F1F178DEB00F20203 /* SwiftlyAccountKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftlyAccountKit.swift; path = Sources/SwiftlyAccountKit.swift; sourceTree = "<group>"; };
+		948D1A3F1F178DEB00F20203 /* SwiftyAccountKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyAccountKit.swift; path = Sources/SwiftyAccountKit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 				948D1A341F178CD700F20203 /* Assets.xcassets */,
 				948D1A361F178CD700F20203 /* LaunchScreen.storyboard */,
 				948D1A391F178CD700F20203 /* Info.plist */,
-				948D1A3F1F178DEB00F20203 /* SwiftlyAccountKit.swift */,
+				948D1A3F1F178DEB00F20203 /* SwiftyAccountKit.swift */,
 			);
 			path = SwiftyAccountKit;
 			sourceTree = "<group>";
@@ -140,7 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				948D1A301F178CD700F20203 /* ViewController.swift in Sources */,
-				948D1A401F178DEB00F20203 /* SwiftlyAccountKit.swift in Sources */,
+				948D1A401F178DEB00F20203 /* SwiftyAccountKit.swift in Sources */,
 				948D1A2E1F178CD700F20203 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

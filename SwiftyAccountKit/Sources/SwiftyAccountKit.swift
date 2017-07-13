@@ -1,5 +1,5 @@
 //
-//  SwiftlyAccountKit.swift
+//  SwiftyAccountKit.swift
 //  SwiftyAccountKit
 //
 //  Created by Maxim on 7/13/17.
@@ -8,10 +8,10 @@
 
 import Foundation
 
-final class SwiftlyAccountKit: NSObject {
+final class SwiftyAccountKit: NSObject {
 	
 	// MARK: - Shared Instance
 	
-	static let shared = SwiftlyAccountKit()
+	static let shared = SwiftyAccountKit()
 
 }
