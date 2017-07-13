@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		56512D866A9624D21CF88AD7 /* Pods_SwiftyAccountKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E826F499970E306296F647F /* Pods_SwiftyAccountKit.framework */; };
 		948D1A2E1F178CD700F20203 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948D1A2D1F178CD700F20203 /* AppDelegate.swift */; };
 		948D1A301F178CD700F20203 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948D1A2F1F178CD700F20203 /* ViewController.swift */; };
 		948D1A331F178CD700F20203 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 948D1A311F178CD700F20203 /* Main.storyboard */; };
 		948D1A351F178CD700F20203 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 948D1A341F178CD700F20203 /* Assets.xcassets */; };
 		948D1A381F178CD700F20203 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 948D1A361F178CD700F20203 /* LaunchScreen.storyboard */; };
 		948D1A401F178DEB00F20203 /* SwiftyAccountKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948D1A3F1F178DEB00F20203 /* SwiftyAccountKit.swift */; };
+		D742FE4B0808B3F0979C7F3E /* Pods_SwiftyAccountKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 518808075B640671A5F43E0A /* Pods_SwiftyAccountKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0E826F499970E306296F647F /* Pods_SwiftyAccountKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyAccountKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12B9CA4F3FBEE63F05518E8B /* Pods-SwiftyAccountKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyAccountKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyAccountKit/Pods-SwiftyAccountKit.release.xcconfig"; sourceTree = "<group>"; };
+		518808075B640671A5F43E0A /* Pods_SwiftyAccountKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyAccountKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BB9EF12BEAC2952A75A8F39 /* Pods-SwiftyAccountKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyAccountKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyAccountKit/Pods-SwiftyAccountKit.debug.xcconfig"; sourceTree = "<group>"; };
 		948D1A2A1F178CD700F20203 /* SwiftyAccountKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyAccountKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		948D1A2D1F178CD700F20203 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56512D866A9624D21CF88AD7 /* Pods_SwiftyAccountKit.framework in Frameworks */,
+				D742FE4B0808B3F0979C7F3E /* Pods_SwiftyAccountKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 		E0890C33FF8536AD580525D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0E826F499970E306296F647F /* Pods_SwiftyAccountKit.framework */,
+				518808075B640671A5F43E0A /* Pods_SwiftyAccountKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

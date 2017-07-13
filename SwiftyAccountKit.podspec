@@ -9,6 +9,7 @@ s.author       = { "Maxim Bilan" => "maximb.mail@gmail.com" }
 s.platform     = :ios, "8.0"
 s.source       = { :git => "https://github.com/maximbilan/SwiftyAccountKit.git", :tag => "0.1.0" }
 s.source_files = "Classes", "SwiftyAccountKit/Sources/**/*.{swift}"
-s.dependency "AccountKit"
 s.requires_arc = true
+s.frameworks = "AccountKit"
+s.dependency "AccountKit", "~> 4.11.0"
 end
