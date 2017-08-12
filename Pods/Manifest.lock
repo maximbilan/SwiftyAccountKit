@@ -1,11 +1,11 @@
 PODS:
-  - AccountKit (4.24.0)
+  - AccountKit (4.25.0)
 
 DEPENDENCIES:
   - AccountKit
 
 SPEC CHECKSUMS:
-  AccountKit: f5a9911d422bd9ac83bf15837954ff192bb4f73f
+  AccountKit: ad0ab17aa930faff3b0c3f011a348d524036ba1b
 
 PODFILE CHECKSUM: bbfbb959f9699c1eb671fc77e3c3893f2d8177bc
 

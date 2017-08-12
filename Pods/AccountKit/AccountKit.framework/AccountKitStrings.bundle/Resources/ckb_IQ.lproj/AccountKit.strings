@@ -29,16 +29,19 @@
 "com_accountkit_button_log_in" = "چوونەناوەوە";
 "com_accountkit_button_next" = "دواتر";
 "com_accountkit_button_ok" = "باشە";
-"com_accountkit_button_resend_code_in" = "لە %1$d دووبارە کۆد بنێرە";
-"com_accountkit_button_resend_sms" = "دووبارە کۆد بنێرە";
+"com_accountkit_button_resend_code_in" = "لە %1$d دا دووبارە کورتەنامە بنێرە";
+"com_accountkit_button_resend_sms" = "دووبارە کورتەنامە بنێرە";
 "com_accountkit_button_send" = "ناردن";
-"com_accountkit_button_send_code_in_fb" = "وەرگرتنی کۆد لەسەر فەیسبووک";
-"com_accountkit_button_send_code_in_fb_disclosure" = "بۆ وەرگرتن کۆدەکەت بە شێوەی ئاگاداری لەسەر فەیسبووک لەسەر «وەرگرتنی کۆد لەسەر فەیسبووک» تەپ بکە.";
+"com_accountkit_button_send_code_in_call" = "تەلەفۆنت بۆ بکرێت";
+"com_accountkit_button_send_code_in_call_details" = "لەڕێگەی پەیوەندیەکی دەنگیەوە کۆدەکە وەربگرە";
+"com_accountkit_button_send_code_in_call_from_facebook_details" = "کۆدەکەت.بە.تەلەفەنیکی.دەنگەوە دەستبکەوە.لە فەیسبووک";
+"com_accountkit_button_send_code_in_fb" = "لە فەیسبووک کۆدێک وەربگرە";
+"com_accountkit_button_send_code_in_fb_details" = "کۆدەکە وەکوو ئاگاداریەکی فەیسبووک دەگاتە دەستت";
 "com_accountkit_button_start" = "دەست پێکردن";
 "com_accountkit_button_start_over" = "دووبارە هەوڵ بدە";
 "com_accountkit_button_submit" = "بەڕێکردن";
 "com_accountkit_check_email" = "ئیمەیلەکەت بکەوە";
-"com_accountkit_code_sent_to" = "بیسەلمێنە کە %1$@ ژمارە مۆبایلی تۆیە.";
+"com_accountkit_code_sent_to" = "ڕاستبوونی ژمارە مۆبایلەکەت %1$@ بسەلمێنە";
 "com_accountkit_confirmation_code_agreement" = "بۆ قەبووڵکردنی <a
             href=\"%2$@\">مەرجەکان</a>، <a
             href=\"%3$@\">سیاسەتی دەیتا</a> و <a href=\"%4$@\">بەکارهێنانی کووکی</a>ی فەیسبووک لەسەر %1$@ تەپ بکە.";
@@ -80,6 +83,7 @@
 "com_accountkit_error_title" = "کێشەیەک لە سیستەمەکە دا ڕووی دا. تکایە دووبارە هەول بدە.";
 "com_accountkit_facebook_code_entry_title" = "کۆدەکەی سەر فەیسبووکت داخل بکە";
 "com_accountkit_logging_in" = "خەریکە دەچێتە ناوەوە...";
+"com_accountkit_other_ways_to_get_code" = "ڕێگەکانی تر بۆ وەرگرتنی کۆد:";
 "com_accountkit_phone_error_title" = "تکایە ژمارە مۆبایلێکی دروست داخل بکە.";
 "com_accountkit_phone_loading_title" = "خەریکین ڕاستیی ژمارەکەت دەسەلمێنین...";
 "com_accountkit_phone_login_phone_number_placeholder" = "ژمارە";
@@ -87,11 +91,12 @@
 "com_accountkit_phone_login_text" = "لەسەر %1$@ تەپ بکە بۆ ئەوەی کورتەنامەیەکی تەئیدکردن لە Account Kitی فەیسبووکەوە بنێردرێت بۆت. %2$@ تەکنەلۆژیای فەیسبووک بە کار دەهێنێت کە یارمەتیت دەدات بچیتە ناوەوە، بەڵام پێویست ناکات ئەکاونتی فەیسبووکت هەبێت. ڕەنگە نرخی کورتەنامە و دەیتات لێ بسێندرێت. <a href=\"%3$@\">بزانە فەیسبووک چۆن زانیاریەکانت بە کار دەهێنێت</a>.";
 "com_accountkit_phone_login_title" = "ژمارە مۆبایلەکەت داخل بکە";
 "com_accountkit_phone_sending_sms" = "خەریکی ناردنی کورتەنامەیەکەین کە کۆدەکەتی تێدا یە";
-"com_accountkit_resend_check" = "بەرلە دووبارە ناردنی کۆد تکایە لە دروستبوونی ژمارەکە دڵنیا ببە.";
+"com_accountkit_resend_check" = "ئینبۆکسی کورتەنامەت بپشکنە.";
 "com_accountkit_resend_email_text" = "ئیمەیلی نوێ بنێرە";
-"com_accountkit_resend_title" = "لەنێو پەیامەکانت بگەڕە بۆ کورتەنامەیەک کە کۆدەکەتی تێدا یە.";
+"com_accountkit_resend_title" = "ئەگەر هیچ کۆدێکت بۆ نەهاتووە:";
 "com_accountkit_sent_title" = "نێردرا!";
 "com_accountkit_success_title" = "سەلمێنرا!";
 "com_accountkit_toolbar_title" = "بچۆ ناوەوەی %1$@";
 "com_accountkit_verify_confirmation_code_title" = "ناتوانین ڕاستیی کۆدەکەت بسەلمێنین.\nتکایە دووبارە هەوڵ بدە:";
 "com_accountkit_verify_title" = "خەریکین ڕاستیی کۆدەکەت دەسەلمێنین...";
+"com_accountkit_voice_call_code_entry_title" = "ئەو کۆدەی کە لە پەیامە دەنگییەکەدا پێتگەیشتووە.داخڵ بکە.";
