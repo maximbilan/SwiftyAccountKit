@@ -133,15 +133,15 @@ final class SwiftyAccountKit: NSObject {
 
 extension SwiftyAccountKit: AKFViewControllerDelegate {
 	
-	func viewController(_ viewController: UIViewController!, didCompleteLoginWith accessToken: AKFAccessToken!, state: String!) {
+	func viewController(_ viewController: (UIViewController & AKFViewController)!, didCompleteLoginWith accessToken: AKFAccessToken!, state: String!) {
 		success?(loginType)
 	}
 	
-	func viewController(_ viewController: UIViewController!, didFailWithError error: Error!) {
+	func viewController(_ viewController: (UIViewController & AKFViewController)!, didFailWithError error: Error!) {
 		failure?(error)
 	}
 	
-	func viewControllerDidCancel(_ viewController: UIViewController!) {
+	func viewControllerDidCancel(_ viewController: (UIViewController & AKFViewController)!) {
 		cancellation?()
 	}
 	
