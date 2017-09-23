@@ -51,6 +51,7 @@
 "com_accountkit_confirmation_code_title" = "Zadajte svoj kód";
 "com_accountkit_country_code_title" = "Vyberte svoju krajinu";
 "com_accountkit_email_invalid" = "Táto e-mailová adresa je nesprávna. Skúste znova.";
+"com_accountkit_email_loading_title" = "Overuje sa vaša e.mailová adresa\U2026";
 "com_accountkit_email_login_retry_title" = "Potvrďte svoju e-mailovú adresu";
 "com_accountkit_email_login_text" = "Ťuknite na tlačidlo %1$@, aby ste dostali potvrdzujúci e-mail od služby Account Kit by Facebook na pomoc s použitím aplikácie %2$@. Nepotrebujte na to účet na Facebooku. <a href=\"%3$@\">Prečítajte si, ako Facebook používa vaše informácie</a>.";
 "com_accountkit_email_login_title" = "Zadajte svoju e-mailovú adresu";

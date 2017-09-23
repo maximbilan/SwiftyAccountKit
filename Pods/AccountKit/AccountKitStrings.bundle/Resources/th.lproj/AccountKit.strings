@@ -52,6 +52,7 @@
 "com_accountkit_confirmation_code_title" = "ป้อนรหัสของคุณ";
 "com_accountkit_country_code_title" = "เลือกประเทศของคุณ";
 "com_accountkit_email_invalid" = "อีเมลนี้ไม่ถูกต้อง โปรดลองอีกครั้ง";
+"com_accountkit_email_loading_title" = "กำลังตรวจสอบยืนยันที่อยู่อีเมลของคุณ...";
 "com_accountkit_email_login_retry_title" = "ยืนยันอีเมลของคุณ";
 "com_accountkit_email_login_text" = "แตะ %1$@ เพื่อรับการยืนยันอีเมลจาก Account Kit โดย Facebook เพื่อช่วยให้คุณใช้งาน %2$@ คุณไม่จำเป็นต้องใช้บัญชีผู้ใช้ Facebook เพื่อใช้งาน Account Kit <a href=\"%3$@\">เรียนรู้เพิ่มเติมเกี่ยวกับวิธีที่ Facebook ใช้ข้อมูลของคุณ</a>";
 "com_accountkit_email_login_title" = "ป้อนที่อยู่อีเมลของคุณ";

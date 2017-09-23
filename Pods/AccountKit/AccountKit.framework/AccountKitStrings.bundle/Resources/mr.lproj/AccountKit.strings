@@ -52,7 +52,7 @@
 "com_accountkit_confirmation_code_title" = "तुमचा कोड प्रविष्ट करा";
 "com_accountkit_country_code_title" = "आपला देश निवड";
 "com_accountkit_email_invalid" = "हा ईमेल चुकीचा अाहे. कृपया पुन्‍हा प्रयत्न करा.";
-"com_accountkit_email_loading_title" = "तुमच्या ईमेल पत्त्याचे सत्यापन करत आहे...";
+"com_accountkit_email_loading_title" = "तुमचा ईमेल पत्ता सत्यापित करत आहे...";
 "com_accountkit_email_login_retry_title" = "तुमच्या ईमेलची पुष्‍टी करा";
 "com_accountkit_email_login_text" = "तुम्हाला %2$@ वापरण्यात मदत मिळावी यासाठी Facebook तर्फे Account Kit कडून ईमेल पुष्टी प्राप्त करण्याकरीता %1$@ टॅप करा. ते वापरण्यासाठी तुम्हाला Facebook खात्याची आवश्यकता नाही. <a href=\"%3$@\">Facebook तुमची माहिती कशी वापरते हे जाणून घ्या</a>.";
 "com_accountkit_email_login_title" = "तुमचा ईमेल पत्ता प्रविष्ट करा";
