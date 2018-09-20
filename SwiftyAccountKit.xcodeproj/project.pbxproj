@@ -102,7 +102,6 @@
 				948D1A261F178CD700F20203 /* Sources */,
 				948D1A271F178CD700F20203 /* Frameworks */,
 				948D1A281F178CD700F20203 /* Resources */,
-				CFA47B6A91D6F394AF07637F /* [CP] Embed Pods Frameworks */,
 				C9DA0C9C23DF4DBB1EC087C4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -126,7 +125,7 @@
 				TargetAttributes = {
 					948D1A291F178CD700F20203 = {
 						CreatedOnToolsVersion = 8.3.3;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = "";
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -192,26 +191,11 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccountKitStrings.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyAccountKit/Pods-SwiftyAccountKit-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CFA47B6A91D6F394AF07637F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyAccountKit/Pods-SwiftyAccountKit-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
